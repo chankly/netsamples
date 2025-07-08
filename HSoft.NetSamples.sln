@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSoft.NetSamples.Api", "HSoft.NetSamples.Api\HSoft.NetSamples.Api.csproj", "{B13C37F9-0DC8-40AF-88F2-08A108ECFA50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DB5E455E-569B-4B98-8300-39A678140077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSoft.NetSamples.Api.IntegrationTest", "HSoft.NetSamples.Api.IntegrationTest\HSoft.NetSamples.Api.IntegrationTest.csproj", "{A9666285-D767-4542-9B8D-B628324D9AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13C37F9-0DC8-40AF-88F2-08A108ECFA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13C37F9-0DC8-40AF-88F2-08A108ECFA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13C37F9-0DC8-40AF-88F2-08A108ECFA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13C37F9-0DC8-40AF-88F2-08A108ECFA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9666285-D767-4542-9B8D-B628324D9AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9666285-D767-4542-9B8D-B628324D9AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9666285-D767-4542-9B8D-B628324D9AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9666285-D767-4542-9B8D-B628324D9AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B13C37F9-0DC8-40AF-88F2-08A108ECFA50} = {DB5E455E-569B-4B98-8300-39A678140077}
+		{A9666285-D767-4542-9B8D-B628324D9AA5} = {DB5E455E-569B-4B98-8300-39A678140077}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {734E0BCF-7AA5-40C6-B582-0F5DF5E7F929}
+	EndGlobalSection
+EndGlobal
