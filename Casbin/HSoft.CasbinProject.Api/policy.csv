@@ -1,0 +1,7 @@
+p, carlos, productos, *, leche, allow
+p, admin, productos, *, *, allow
+p, empleado, productos, listar, leche, allow
+p, empleado, productos, ver, leche, allow
+
+g, maria, admin
+g, juan, empleado
